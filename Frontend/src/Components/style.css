@@ -1,0 +1,87 @@
+body{
+    background-image:url("https://media.istockphoto.com/photos/white-bus-driving-along-the-asphalt-road-at-sunset-picture-id614316294?k=20&m=614316294&s=612x612&w=0&h=2_jeJ8G2XuA1_Z6uP0NO_z8BVaTmG_N_1zN0nLRF3ZM=") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    /* background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2c3e50, #bdc3c7); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+} 
+
+.form{
+    background-color: white;
+    opacity: 0.85;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    /* height: 600px; */
+}
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+}
+
+.buscard{
+    opacity: 0.85;
+    background-color:turquoise;
+    height: 100px;
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+.busid{
+    flex-basis: 50px;
+    /* background-color: slateblue; */
+    flex-grow: 0.5;
+}
+.fromto{
+    flex-basis: 100px;
+
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.type{
+    flex-basis: 70px;
+    /* background-color: red; */
+    flex-grow: 1;
+}
+.fare{
+    flex-basis: 30px;
+    /* background-color: rosybrown; */
+    flex-grow: 1;
+}
+.froma{
+    display:flex;
+    flex-basis: 50px;
+    align-items: center;
+    /* background-color: seagreen; */
+}
+
